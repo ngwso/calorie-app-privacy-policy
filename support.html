@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | ごはんメモ</title>
+<style>
+  :root { --bg: #f5f7f5; --card: #ffffff; --text: #0b0b0b; --text2: #52514e; --brand: #2e9e5b; --border: #d5dbd7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e0f0e; --card: #1c1c1a; --text: #f2f2ef; --text2: #bdbcb6; --brand: #4cc27e; --border: #3d3f3c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 12px; }
+  h2 { font-size: 1.15rem; margin: 2em 0 .5em; padding-bottom: .3em; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 1rem; margin: 1.2em 0 .2em; color: var(--text); }
+  p, li { color: var(--text2); }
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<main>
+<h1>ごはんメモ サポート</h1>
+<p>「ごはんメモ」は、食事の写真や料理名からカロリーと栄養素を記録できるアプリです。アプリ内の「？ 使い方」でも、各機能の説明を見られます。</p>
+
+<h2>よくある質問</h2>
+<h3>APIキーとは何ですか？</h3>
+<p>写真や料理名から AI（Anthropic の Claude）でカロリーを計算するための利用キーです。<a href="https://console.anthropic.com/">console.anthropic.com</a> で作成し、アプリの「設定」→「Claude APIキー」に貼り付けて保存します。AI の利用料金は Anthropic に直接支払います（写真1枚の計算で数円〜10円ほどが目安）。</p>
+
+<h3>APIキーがなくても使えますか？</h3>
+<p>はい。手入力、よく食べるもの、過去の食事からの記録、体重の記録、グラフなどは APIキーなしで使えます。</p>
+
+<h3>表示されるカロリーは正確ですか？</h3>
+<p>AI による推定値や計算式による目安で、実際の値とは異なることがあります。結果は「✎ 修正」で直してから記録できます。本アプリは医療目的には使えません。持病のある方などは医師や管理栄養士に相談してください。</p>
+
+<h3>データはどこに保存されますか？</h3>
+<p>記録はすべて端末の中に保存されます。機種変更に備えて、「設定」→「データ」→「バックアップを書き出す」で保存しておいてください。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h3>ヘルスケアと連携するには？</h3>
+<p>「設定」→「ヘルスケア連携」→「ヘルスケアと連携する」を押し、表示される画面で許可してください。許可はあとから iPhone の「設定」→「ヘルスケア」で変更できます。</p>
+
+<h2>お問い合わせ</h2>
+<p>GitHub の Issues（<a href="https://github.com/ngwso/calorie-app-privacy-policy/issues">https://github.com/ngwso/calorie-app-privacy-policy/issues</a>）からお問い合わせください。Issues の内容は公開されるため、個人情報は書き込まないでください。</p>
+</main>
+</body>
+</html>
